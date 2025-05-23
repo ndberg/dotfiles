@@ -9,3 +9,11 @@ alias clear='php artisan optimize:clear'
 alias migrate='php artisan migrate'
 alias rollback='php artisan migrate:rollback'
 alias queue='php artisan queue:work'
+alias horizon='php artisan horizon'
+
+alias crun='composer run dev'
+alias cbuild='composer run build'
+
+alias cup='composer update'
+alias ci='composer install'
+alias co='composer outdated'
